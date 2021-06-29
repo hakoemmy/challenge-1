@@ -6,26 +6,26 @@
 	    <meta name="description" content="Interactive & Dynamic Web App using HTML, CSS, and Vanilla JS">
 	    <meta name="keywords" content="challenge 1, HTML, CSS and javascript">
 	    <meta name="author" content="Emmanuel Hakorimana">
-        <title>Challenge1: Interactive & Dynamic Web App using HTML, CSS, and Vanilla JS</title>
+        <title>List of Posts</title>
         <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <section>
             <table>
                 <caption>
-                    <h1>List of Users</h1>
+                    <h1> <a class="homeLink" href="./index.html">Go Back Home</a> > List of Posts</h1>
                 </caption>
                 <thead>
                   <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Action</th>
+                    <th>Post ID</th>  
+                    <th>Post title</th>
+                    <th>Post body</th>
                   </tr>
                 </thead>
-                <tbody id="users-list">   
+                <tbody id="posts-list">   
                 </tbody>
               </table>
-              <div class="feedbackDiv" id="msg-div"></div>
+              <div class="feedbackDiv" id="msg-div-post"></div>
         </section>
         <footer class="footer">
             <div class="footer-copyright text-center">&copy; Developed with love</i> by
@@ -34,6 +34,6 @@
         
         </footer>
 
-        <script type="text/javascript" src="../js/usersScript.js"></script> 
+        <script type="text/javascript" src="../js/postsScript.js"></script> 
     </body>
 </html>
